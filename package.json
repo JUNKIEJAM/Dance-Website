@@ -1,0 +1,23 @@
+{
+  "name": "frolic-dance",
+  "version": "1.0.0",
+  "description": "Dance Academy website made by Prithesh Dwivedi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUNKIEJAM/Dance-Website.git"
+  },
+  "author": "Prithesh Dwiedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUNKIEJAM/Dance-Website/issues"
+  },
+  "homepage": "https://github.com/JUNKIEJAM/Dance-Website#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}

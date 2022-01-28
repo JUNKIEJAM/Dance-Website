@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    background-color: aquamarine;
+    padding: 13px 14px;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+   color:white;
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 13px 20px;
+}
+
+#navbar li a:hover{
+    color:orangered;
+    
+ }
+
+#introSection{
+    padding-bottom: 40px; 
+    color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+   /* justify-content: center;*/
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    background: center/cover no-repeat url("/static/dance3.jpg");
+    font-size: 40px;
+    height: 300px;
+    background-color: red;
+}
+
+#introSection div.small{
+ 
+    font-size: 27px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(92, 88, 88);
+}
+
+#sponsorsSection h2{
+    
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding-top: 23px;
+
+}
+#footer{
+    height: 100px;
+    background-color: black;
+}

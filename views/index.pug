@@ -1,0 +1,27 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top.firstClass.secondClass
+          ul
+              li #[a(href='/') Home]
+              li #[a(href='/')  About]
+              li #[a(href='/')  Sevices]
+              li #[a(href='/')  Class Info]
+              li #[a(href='/')  Contact Us]
+
+    section#introSection 
+         div Welcome to Frolic Academy 
+         div.small Come and Shake a leg  
+
+    section#sponsorsSection
+         h2 Our Sponsors
+
+    footer#footer
+          | our footer here 
+    
+    script
+       include ../static/index.js
