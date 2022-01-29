@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JUNKIEJAM/Dance-Website#readme",
   "dependencies": {
+    "build": "^0.1.4",
     "express": "^4.17.2",
     "pug": "^3.0.2"
   }
