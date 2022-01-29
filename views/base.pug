@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html 
+  head
+    title Foller Academy 
+    block scripts
+    block style
+      script(src='/jquery.js')
+  body
+    nav#navbar.top.firstClass.secondClass
+          ul
+              div#logo
+                 img(src="/static/dance2_logo.png")
+                 
+              li #[a(href='/') Home]
+              li #[a(href='/')  About]
+              li #[a(href='/')  Sevices]
+              li #[a(href='/')  Class Info]
+              li #[a(href='/')  Contact Us]
+              
+    block content 
+    footer#footer
+          | Copyright © 2021 FollerTheWay.com  | All Rights Reserved

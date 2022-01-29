@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+
+block content 
+     
+
+    section#introSection 
+         div Welcome to Frolic Academy 
+         div.small Come and Shake a leg  
+
+    section#missionSection
+         h2 Our Mission
+         div.card
+             h3 Dance Perfection 
+             div.card-box
+               div.card-img
+                  img(src='/static/1.png')
+
+               div.card-content 
+                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ad.
+         
+         div.card
+             h3 Dance Perfection 
+             div.card-box
+               div.card-img
+                  img(src='/static/1.png')
+
+               div.card-content 
+                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ad.
+
+         div.card
+             h3 Dance Perfection 
+             div.card-box
+               div.card-img
+                  img(src='/static/1.png')
+
+               div.card-content 
+                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ad.
+
+    section#sponsorsSection
+         h2 Our Sponsors
+         div#sponsors 
+            
+            img(src='/static/dance_for_life.png',alt="Dance For Life",class="spImage")
+            img(src='/static/red_bull.png',alt="Red Bull",class="spImage")
+            img(src='/static/arim_dance.png',alt="Arim Dance",class="spImage")
+    
+

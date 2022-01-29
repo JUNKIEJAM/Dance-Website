@@ -1,7 +1,7 @@
 const express=require("express");
 const path=require("path")
 const app=express();
-const fs=require("fs");
+//const fs=require("fs");
 const port=333;
 
 //EXPRESS SPECIFIC STUFF
@@ -22,9 +22,17 @@ app.set('views',path.join(__dirname,'views'));
 app.get('/',(req,res)=>{
      
    // const con="This is the best content on website";
-    const params={'title':'This is the best website'};
-    res.status(200).render('index.pug',params)    // render for template and not send
-})
+    const params={};
+    res.status(200).render('home.pug',params)    // render for template and not send
+});
+
+app.get('/contact',(req,res)=>{
+     
+    // const con="This is the best content on website";
+     const params={};
+     res.status(200).render('contact.pug',params)    // render for template and not send
+ })
+ 
 
 
 //Start the server
