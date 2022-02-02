@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/JUNKIEJAM/Dance-Website#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "build": "^0.1.4",
     "express": "^4.17.2",
+    "mongoose": "^6.1.9",
     "pug": "^3.0.2"
-  }
+  },
+  "devDependencies": {}
 }
