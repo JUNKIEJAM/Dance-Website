@@ -2,7 +2,7 @@ const express=require("express");
 const path=require("path")
 const app=express();
 //const fs=require("fs");
-const port=333;
+var port=process.env.PORT||333;
 const bodyParser=require('body-parser');
 const mongoose=require('mongoose');
 
